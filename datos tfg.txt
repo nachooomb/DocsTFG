@@ -1,0 +1,21 @@
+Titulo:
+Prototipo de videojuego con mecánicas de combate por turnos basado en Pokémon usando resursos de Internet
+
+
+Descripción: 
+Este proyecto se centra en el desarrollo de un prototipo de videjuego RPG de combate por turnos basado en el la IP de videojuegos Pokémon, en este proyecto se realizará con el software Unreal Engine/Unity, los apartados que se desarrollaran en este proyecto son las mecanicas, la gestion de datos los cuales se obtienen haciendo peticiones a la API https://pokeapi.co/ desarollada por la comunidad, en el apartado gráfico se modificarán los modelos 3D obtenidos de la web https://www.models-resource.com/3ds/pokedex3dpro/ los cuales pasaran un proceso de rig, la de animación de esos modelos, se induciran VFX de los movimientos porpios del juego y dedemas requirimientos que deberan eastar contenidos en el prototipo. Apesar de ser un prototipo la idea es que se plantee este proyecto como la base de un juego mayor, de forma que luego pueda ser escalable a un videojuego completo.  
+
+(el desarrollo de este prototipo se enfoca de esta forma para eludir el proceso de conceptualizaciónde personajesy asi centrarse en desarrolar de manera técnica en el desarrollo de este prototipo a los cuales se les añaden mejoras de funcionalidades para facilitar la experiencia de juego respecto a los juegos de Pokémon)
+
+
+Diferencias: Visualización de datos e informacción lo cual facilita el gameplay, rediseño de modelos 3D y sus animaciones y como/cuando estas se ejecutan
+
+
+Palabras clave:
+Prototipo escalable de videojuego 
+Unreal engine 5/ unity
+Manejo de datos de API
+Blender
+Rehacer/Remake una saga de videjuegos
+(Diseño de) RPG con combate por turnos
+

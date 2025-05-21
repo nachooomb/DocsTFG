@@ -1,0 +1,28 @@
+1. Preparando la Estructura del Equipo de Pokémon
+
+2. Configuración del Array en el Blueprint
+
+3. Creación del Blueprint de Gestión de Combate (BP_CombatManager)
+
+4. Inicialización del Combate
+
+5. Mostrar el HUD Inicial de Combate
+
+6. Implementación de la Selección Inicial en BP_CombatManager
+
+7. Código Visual de Selección
+
+
+
+
+
+
+
+
+
+
+
+
+Vale estoy realizando estos pasos en el software y quiero saber como realizarlos explica me en profundidad como hago el paso
+
+Es correcto pero el siguiente paso es importante, la estadística de Velocidad de los Pokémon (y las otras estadística también) se calcula usando variables como el nivel la estadística base los IVs y los EVs ya que vamos a modificar la estructura vamos a incluir el calculo de todas las estadísticas

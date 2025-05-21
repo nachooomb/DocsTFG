@@ -1,0 +1,53 @@
+Empieza COMBATE MENÚ
+
+Seleccionas ATAQUE: Pantalla ATAQUES MENÚ
+
+Selecionas POKÉMON: Pantalla POKEMON CAMBIO (Ignorar BOTON INFORMACIÓN)
+
+Seleciona INFORMACION EN COMBATE MENÚ: Pantalla INFO COMBATE MENÚ
+
+Seleciona INFORMACION EN ATAQUES MENÚ: Pantalla INFO ATAQUES MENÚ
+
+**Loos botones de acciones arriba/abajo/derecho se corresponden con los botones X/EQUIS(abajo), TRIANGULO(arriba) y CIRCULO(derecho) de los mandos dualshock de Play Station**
+
+
+COMBATE MENÚ: En esta pantalla tienes 4 opciónes:
+
+-Al entrar en esta pantalla se "sombreará/preseleccionará" la primera opción de las 3 (de forma que al jugar con mando puedeas cambiar de opción con las flechas o el pad y acceptar la selección con el botón de abajo, mientras que con el botón de arriba accedes a la opción de información para mostrar los datos)
+
+(flechas direccionales / Pad) Preseleccionas una de las opciones.
+
+(botón de acción abajo)Selecionando ATAQUE puedes entrar en el menú de combate para realizar ataques con tu Pokémon en el campo tambien tienes la opción de regresar a COMBATE MENÚ (botón de acción derecho).
+
+(botón de acción abajo)Seleccionando POKÉMON puedes entrar en el menú de cambio Pokémon en el cual tienes las opciones propias de este menú y la opcion de volver atras regresando a COMBATE MENÚ (botón de acción derecho).
+
+(botón de acción arriba)Seleccionando INFORMACIÓN en este menú se muestra la información del estado de los siguientes veriables presentes en el combate: los campos de combate, el campo, el clima, y en una pestaña adicional los estados alterados, los buffos o debuffos y las estadisticas de los Pokémona combatientes en esta pantalla solo se podra interactuar volviendo a la pantalla anterior (botón de acción derecho).
+
+(botón de acción abajo)Seleccionando RENDIRSE aparece un mensaje de seguridad si aceptas(botón de acción abajo) sales del combate hacia en MENÚ PRINCIPAL si rechazas(botón de acción derecho).
+
+
+
+ATAQUE: En esta pantalla tienes varias opciones:
+
+-Al entrar en esta pantalla se "sombreará/preseleccionará" el primer ataque de los 4 (de forma que al jugar con mando puedeas cambiar de ataque con las flechas o el pad y acceptar la selección con el botón de abajo, mientras que con el botón de arriba accedes a la opción de información para mostrar los datos) 
+
+(flechas direccionales / Pad) Preseleccionas una de las opciones de ataques disponibles.
+
+(botón de acción abajo)Selecionando un de las opciones 4 de ATAQUES disponibles, termina tu turno y se ejecuta la fase de COMBATE.
+
+(botón de acción arriba)Selecionando INFORMACIÓN aparece una pestaña la cual muestra la información del ataque selecionado pudiendo seleccionar los demas ataques para cambiar la información desplegada en la pestaña.
+
+
+
+POKÉMON: En esta pantalla existen varias opciones de forma similar a la pantalla anterior:
+
+-Al entrar en esta pantalla se "sombreará/preseleccionará" el primer Pokémon de los que tengas en el equipo y se mostrará la información de dicho pokemon en la pestaña central (de forma que al jugar con mando puedeas cambiar de Pokémon y acceptar el cambio con el botón de abajo, mientras que con el botón de arriba accedes a la opción de información para mostrar los datos)
+
+(botón de acción abajo)Acepta el cambio de Pokémon, cambiando el Pokémon del campo por el Pokémon preselecionado.
+
+(botón de acción arriba)Desplega la pestaña en la que se muestra la información del Pokémon preseleccionado.
+
+
+
+
+

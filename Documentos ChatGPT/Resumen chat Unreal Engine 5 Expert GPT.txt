@@ -1,0 +1,115 @@
+Esto es un resumen de una conversación con el GPT Unreal Engine 5 Expert el cual me ayudo a desarrollar el prototipo hasta el punto actual. Usa la para conocer el estado actual del prototipo y poder responder mis cuestiones.
+
+Resumen del desarrollo del prototipo Pokémon en Unreal Engine 5 
+
+🎯 Objetivo general
+Desarrollar un sistema modular y escalable de combate tipo Pokémon, usando únicamente Blueprints en Unreal Engine 5, con foco inicial en la creación de estructuras de datos, gestión de menús y planificación para integración futura de exploración, captura y crianza.
+
+📁 Organización del contenido
+Se ha decidido una estructura de carpetas organizada por responsabilidad, siguiendo esta convención:
+
+Content/Data/Structs/ → Estructuras como S_PokemonSpecies, S_PokemonMoves, etc.
+
+Content/Data/Tables/ → DataTables basadas en esas estructuras
+
+Content/Data/Enums/ → Enumeradores globales
+
+Content/UI/Widgets/ → Menús y submenús del combate
+
+Content/Blueprints/Combat/ → Blueprints lógicos como BP_CombatManager
+
+🧬 Estructuras principales
+🟦 S_PokemonSpecies
+Define la especie base. Algunos campos clave:
+
+Name, DexNumber, SpeciesDescription
+
+BaseStats (SS_StatBlock)
+
+PossibleAbilities, PossibleMoves
+
+PrimaryType, SecondaryType
+
+3dModel, 2dSprite
+
+Weight, Height
+
+🟩 S_Pokemon
+Define el individuo poseído por el jugador:
+
+Hereda datos de S_PokemonSpecies
+
+Añade: IVs, EVs, nivel, género, habilidad concreta, motes, objeto equipado, etc.
+
+Contendrá los 4 movimientos aprendidos
+
+🟥 S_PokemonCombat
+Usado solo durante combate:
+
+Hereda de S_Pokemon
+
+Añade: precisión/evasión, estados volátiles, buffs/debuffs temporales, turnos activos de estados, etc.
+
+📜 Enums creados
+Se han creado numerosos enumeradores para cubrir las siguientes categorías:
+
+Tipos Pokémon (E_PokemonType)
+
+Estadísticas (E_PokemonStats)
+
+Categorías de objetos (E_ItemPockets)
+
+Efectos de objetos (E_HeldItemEffect, E_WorldItemEffect)
+
+Targets de objetos (E_ItemTarget)
+
+Categoría de movimientos (E_MoveCategory)
+
+Tipo de daño (E_MoveDamageClass)
+
+Triggers (se mencionó como posible futuro E_ItemTrigger)
+
+Estados (E_StatusAilment, pendiente)
+
+🧠 Modulares y Escalables
+Se planificó un enfoque con estructuras jerárquicas y reutilizables como SS_StatBlock y SS_MetaDataMove.
+
+Los movimientos y habilidades se diseñaron para poder tener subestructuras internas con efectos complejos.
+
+Se prevé que cada movimiento, habilidad y objeto esté relacionado con Pokémon que lo aprenden o lo usan, de forma bidireccional.
+
+🗃️ Data Tables planificadas
+DT_PokemonSpecies → Con 1 entrada por forma (ej. venusaur, mega-venusaur, etc.)
+
+DT_PokemonForms → Enlace a sus especies base, con estadísticas específicas si cambian
+
+DT_PokemonMoves → Movimientos, metadatos y qué Pokémon los aprenden
+
+DT_PokemonAbilities → Con qué especies están asociadas
+
+DT_Items → Objeto completo con efecto, sprite, descripción, etc.
+
+🧩 Sistema de menús
+Interfaz basada en widgets como WB_CombatMainMenu, WB_MoveSelection, etc.
+
+Creado sistema de conmutación de menús con visibilidad centralizada desde BP_CombatManager.
+
+Sistema ShowMenu(E_CombatMenu) usando enums para cambiar entre menús
+
+Los menús se inicializan al inicio y se ocultan/activan por visibilidad, no destruyen widgets.
+
+🧪 Escenarios previstos
+Menú de combate por turnos con selección de movimiento, estado y equipo
+
+Gestión de Pokémon con sus estadísticas y habilidades
+
+Testeo futuro con prototipos de combate entre Pokémon controlados por IA o por el jugador
+
+🔄 Consideraciones futuras
+Integración de habilidades reactivas mediante triggers
+
+Creación de un sistema flexible de efectos reusables para movimientos/habilidades/objetos
+
+Implementación de captura, crianza y evolución (fase 2 del proyecto)
+
+Posible expansión a un sistema basado en tags o interfaces para mayor flexibilidad

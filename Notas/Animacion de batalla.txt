@@ -1,0 +1,15 @@
+el jugador ha seleccionado el Pokémon con el que quiere combatir(INPUT)
+
+se ve a los dos entrenadores que hay en el campo de batalla (ANIMACIÓN DE CÁMARA)
+
+se presentan los entrenadores con un animación (ANIMACIÓN DE PERSONAJE)
+
+cada uno de ellos  lanza su Pokeball (ANIMACIÓN DE PERSONAJE Y POKEBALL)
+
+efecto que hace aparecer el Pokémon elegido (ANIMACIÓN DE POKEBALL Y EFECTO NIÁGARA)
+
+animación de entrada y luego pasando a su animación de idle (AIMACIÓN DE POKÉMON Y TRANSICIÓN)
+
+la Pokeball vuelve al entrenador (ANIMACIÓN DE POKEBALL)
+
+la agarra, la guarda en su espalda y pasa a su posición de idle (ANIMACIÓN DE PERSONAJE)
